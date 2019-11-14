@@ -1,4 +1,4 @@
-# book-pro
+# bookmark-pro
 
 ## Protected Bookmarks
 
