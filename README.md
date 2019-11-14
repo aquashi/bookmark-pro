@@ -54,15 +54,32 @@ git clone https://github.com/aquashi/bookmark-pro.git
     - OR right-click the logo ![Lock](icon_16.png) and select **Manage extensions**
 2. Make sure the on/off toggle is selected to ON
 3. Make sure the **Allow in incognito** toggle is set to ON (optional)
+
+> <img src="demo/demo-a.jpg" height="350" width="611" title="Allow in incognito mode">
+
 4. Click on the logo ![Lock](icon_16.png) to open the extension. You should automatically be taken to the options page, if not, right-click the logo ![Lock](icon_16.png) and select **Options**
-5. Enter a new password in the *New Password* and *Confirm Password* fields, then click reset and you should see a success message
+5. Enter a new password in the *New Password* and *Confirm Password* fields, then click **Reset** and you should see a success message
+
+> <img src="demo/demo-b.jpg" height="350" width="611" title="(Re)set Password">
+ 
 6. Close all extension management and options windows and you're ready to go!
 
 ---
 
 ## Usage
 
-Will fill this section with text and media highlighting the functionality of the product.
+When you log in, you should see your protected bookmark list along with the option to add a new bookmark. This will obviously be empty upon first login.
+
+> <img src="demo/demo-c.jpg" height="350" width="482" title="Post-login">
+
+
+Editing bookmarks is very simple and just a matter of clicking the links below the relevant bookmark. You can then edit the URL and/or the title. Google Chrome doesn't allow extensions to open URLs without the the `http://` or `https://` prefix. Please make sure you use this approved URL format by including the prefix or you will encounter an error.
+
+> <video width="640" height="360" controls>
+  <source src="demo/demo-d.mp4" type="video/mp4">
+</video>
+
+The extension is pretty intuitive. For any further questions, feel free to [contact](#contact) me.
 
 ---
 
@@ -84,6 +101,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Aaron Quashie - aaronquashie@gmail.com
+**Developer:** Aaron Quashie - aaronquashie@gmail.com
 
 Repository Link: [https://github.com/aquashi/bookmark-pro](https://github.com/aquashie/bookmark-pro)
