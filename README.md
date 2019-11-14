@@ -24,7 +24,7 @@
 ![JavaScript](https://img.shields.io/badge/-javascript-yellow)
 ![GitHub issues](https://img.shields.io/github/issues/aquashi/bookmark-pro)
 ![GitHub repo size](https://img.shields.io/github/repo-size/aquashi/bookmark-pro)
-[![GitHub](https://img.shields.io/github/license/aquashi/bookmark-pro)](licence)
+[![GitHub](https://img.shields.io/github/license/aquashi/bookmark-pro)](LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/aquashi/bookmark-pro)
 
 Protected Bookmarks is a Google Chrome extension that allows users who value privacy to create a list of password protected bookmarks. The bookmarks are accessed in incognito windows by default. This extension was built using HTML, CSS, and JavaScript of the vanilla variety, i.e. without the use of external libraries, frameworks, or dependencies to allow for better extensibility.
