@@ -73,11 +73,7 @@ When you log in, you should see your protected bookmark list along with the opti
 > <img src="demo/demo-c.jpg" height="350" width="482" title="Post-login">
 
 
-Editing bookmarks is very simple and just a matter of clicking the links below the relevant bookmark. You can then edit the URL and/or the title. Google Chrome doesn't allow extensions to open URLs without the the `http://` or `https://` prefix. Please make sure you use this approved URL format by including the prefix or you will encounter an error.
-
-> <video width="640" height="360" controls>
-  <source src="demo/demo-d.mp4" type="video/mp4">
-</video>
+Editing bookmarks is very simple and just a matter of clicking the links below the relevant bookmark. You can then edit the URL and/or the title. Google Chrome doesn't allow extensions to open URLs without the the `http://` or `https://` prefix. Please make sure you use this approved URL format by including the prefix or you will encounter an error. ([See video](demo/demo-d.mp4))
 
 The extension is pretty intuitive. For any further questions, feel free to [contact](#contact) me.
 
