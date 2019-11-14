@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="popup.js"></script>
+    <title>Document</title>
+    <style>
+        body {
+            width: 400px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:link,
+        a:visited {
+            color: blue;
+        }
+
+        #bookmarkList a:hover,
+        #addForm a:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Enter password: <input type="password" id="password" />
+        <input type="submit" id="submit" value="Submit" />
+    </div>
+    <div id="addBox"></div>
+    <div id="bookmarkNote"></div>
+    <div id="bookmarkHeader"></div>
+    <div id="bookmarkList"></div>
+</body>
+
+</html>

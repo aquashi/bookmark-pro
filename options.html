@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Options for the Protected Bookmarks extension</title>
+<style>
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 10pt;
+}
+</style>
+<script src="options.js"></script>
+</head>
+<body>
+<table>
+<tr>
+  <td rowspan="2" valign="top" align="center" width="80">
+    <img src="icon_128.png" width="64" height="64" />
+  </td>
+  <td height="22"></td>
+</tr>
+<tr>
+  <td valign="center">
+    <div id="changePassword">
+    <strong>Change password:</strong>
+    <br /><br />
+    <label>
+      <input id="current" type="password" name="current" placeholder="Current Password">
+      Your current password<br>
+    </label>
+
+    <label>
+      <input class="match" id="newPassword" type="password" name="newPassword" placeholder="New Password">
+      Your new password<br>
+    </label>
+
+    <label>
+      <input class="match" id="confirmPassword" type="password" name="confirmPassword" placeholder="Confirm New Password">
+      Confirm new password<br /><br />
+    </label>
+    <p>Enter existing password and new password to change password without any loss of data</p>
+    <button id="changeButton">Change Password</button>
+
+    <div id="messageDiv">
+      <p id="messageText"></p>
+      <br /><br />
+    </div>
+
+  </div>
+  </td>
+  
+</tr>
+<tr>
+  <td></td>
+  <td valign="center">
+    <div id="resetPassword">
+      <strong>Forgotten Password or New User?</strong>
+      <p>If you've forgotten your password, enter new password above to reset password to new password. 
+        <br /><br />Note: You will lose all your saved protected bookmarks if you reset your password</p>
+      <br />
+      <button id="resetButton">Reset Password</button>
+    </div>
+  </td>
+</tr>
+</table>
+</body>
+</html>

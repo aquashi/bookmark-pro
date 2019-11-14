@@ -1,0 +1,23 @@
+{
+  "name": "Protected Bookmarks",
+  "description": "This extension allows you to password-protect your bookmarks.",
+  "version": "1.0",
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "activeTab",
+    "bookmarks",
+    "tabs",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Protected Bookmarks",
+    "default_icon": "icon_16.png",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
