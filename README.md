@@ -99,4 +99,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Developer:** Aaron Quashie - aaronquashie@gmail.com
 
-Repository Link: [https://github.com/aquashi/bookmark-pro](https://github.com/aquashie/bookmark-pro)
+Repository Link: [https://github.com/aquashi/bookmark-pro](https://github.com/aquashi/bookmark-pro)
